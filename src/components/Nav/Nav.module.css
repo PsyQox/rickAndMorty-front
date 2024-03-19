@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Schwifty';
+    src: url("../../fonts/get_schwifty.ttf");
+}
+.buttonNav{
+    height: 35px;
+    border-radius: 10px;
+    margin: 7px;
+    width: 70px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.buttonNav:hover{
+    background-color: rgba(49, 161, 83, 0.6);
+}
+
+.buttonNavExit{
+    height: 35px;
+    border-radius: 10px;
+    margin: 7px;
+    width: 70px;
+    background-color:#dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.buttonNavExit:hover{
+    background-color: rgba(220, 53, 69, 0.6);
+}
+
+.containerNav{
+    margin-bottom: 1.5rem;
+}
+
+.title{
+    font-family: 'Schwifty';
+    color: #69C8ECFF;
+    font-size: 75px;
+    letter-spacing: 2px; 
+    font-weight: bold; 
+    text-align: center; 
+    -webkit-text-stroke: 1px black; 
+    text-shadow: 
+        -2px -2px 0 #FAFD7CFF,
+        2px -2px 0 #FAFD7CFF,
+        -2px 2px 0 #FAFD7CFF,
+        2px 2px 0 #FAFD7CFF;
+}
+
+@media only screen and (max-width: 523px){
+    .title{
+        line-height: 100px;
+    }
+}

@@ -1,0 +1,36 @@
+.divSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;    
+    border: none
+}
+
+.inputSearch{
+    width: 65%;
+    height: 35px;
+    border-radius: 10px; 
+}
+
+.buttonSearch{
+    height: 35px;
+    border-radius: 10px;
+    margin: 7px;
+    width: 70px;
+    background-color: #28a745;
+    color: white;
+    /* border: 2px solid;
+    border-color: black; */
+    border: none;
+    cursor: pointer;
+}
+.buttonSearch:hover{
+    background-color: rgba(49, 161, 83, 0.6);
+}
+.spanError{
+    color: red;
+    background-color: rgba(49, 161, 83, 0.8);
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem 5rem 0.5rem;
+}
